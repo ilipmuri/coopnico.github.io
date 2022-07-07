@@ -1,0 +1,51 @@
+.navbar{
+    padding: 0;
+    margin-bottom: 0;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+
+.navbar .navbar-brand img{
+    margin-left: 3rem;
+    height: auto;
+    width: 8%;
+}
+
+.navbar .navbar-brand p{
+    font-family: Gotham,sans-serif;
+    font-size: 1rem;
+    line-height: 0;
+    color: #4a4a4a;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.nav-item{
+    padding-bottom: 4px;
+}
+
+.nav-item:hover{
+    color: #ff0;
+    border-top: 4px solid #ff0;
+    padding-bottom: 0;
+    transition: border-top 0.15s ease-in-out;
+}
+
+.btnMember {
+    border: 1px solid #0b079c;
+    background: #0b079c;
+    border-radius: 10px;
+    color: white !important;
+    padding: 7px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.btnMember:hover {
+    background: white;
+    color: black !important;
+}

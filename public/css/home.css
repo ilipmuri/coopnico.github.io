@@ -1,0 +1,237 @@
+/* SLIDER SECTION */
+.carousel-item{
+    height: 70vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+
+/* SECOND SECTION - OUR PRODUCTS */
+.container-second-section{
+    padding: 40px;
+    background-color: #f3f3f3;
+    font-family: Open Sans, Arial, sans-serif;
+}
+.container-second-section h2{
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1em;
+    color: #0b079c;
+    font-size: 2.6rem;
+}
+.container-second-section .p-header{
+    font-size: 17px;
+    color: black;
+    line-height: 26px;
+}
+.second-section-card{
+    background: #0b079c;
+    color: white;
+    height: 100%;
+    justify-content: center;
+    border-radius: 0.8rem;
+    border: 2px solid #0b079c;
+}
+.second-section-card .card-row-container .card-text-container .card-title{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.card-image-container{
+    padding: 10px;
+}
+.card-row-container{
+    --bs-gutter-x: 0;
+}
+.second-section-card:hover{
+    background: white;
+    color: black;
+    border: 2px solid #0b079c;
+    transition: background 0.1s;
+}
+#image-wrapper, img{
+    height: 70vh;
+}
+
+/* THIRD SECTION - DOWNLOADABLE FORMS */
+.container-third-section{
+    padding: 40px;
+    background-color: #fff;
+    font-family: Open Sans, Arial, sans-serif;
+}
+.container-third-section .container .row .dlforms-image-container img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    border-radius: 25px;
+}
+.container-third-section .container .row .dlforms-text-container{
+    padding: 30px;
+    align-items: center;
+    margin-top: 85px;
+}
+.container-third-section .container .row .dlforms-text-container h2{
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1em;
+    color: #0b079c;
+    font-size: 2.6rem;
+}
+.container-third-section .container .row .dlforms-text-container p{
+    font-size: 17px !important;
+    color: black;
+    line-height: 26px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem !important;
+}
+.nico-btn-gradient{
+    padding: 10px 30px;
+    border-radius: 14px;
+    border: 3px solid #0b079c;
+    background: #0b079c;
+    font-size: 16px;
+    color: white;
+    letter-spacing: .3px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nico-btn-gradient:hover{
+    border: 3px solid #0b079c;
+    background: transparent;
+    color: #0b079c;
+    transition: all 0.3s;
+}
+
+/* FOURTH SECTION - NEWS AND UPDATES */
+.container-fourth-section{
+    padding: 40px;
+    background-color: #f3f3f3;
+    font-family: Open Sans, Arial, sans-serif;
+}
+.topic-header{
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 1em;
+    color: #0b079c;
+    font-size: 2.6rem;
+}
+.news-card .card:hover .card-body {
+    background: #0b079c;
+    color: white;
+    transition: all 0.1s;
+}
+.news-card .card:hover {
+    border: 3px solid #0b079c;
+}
+.news-card .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 3px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+/* FIFTH SECTION - ABOUT US */
+.container-fifth-section{
+    padding: 40px;
+    background-color: #fff;
+    font-family: Open Sans, Arial, sans-serif;
+}
+.container-fifth-section .container .row .news-text-container{
+    font-size: 16px;
+}
+.link-know-more{
+    font-weight: 600;
+    color: #0b079c;
+}
+.link-know-more:hover{
+    color: #ff0;
+    border-bottom: 2px solid #ff0;
+    transition: all 0.2s;
+}
+
+/* SIXTH SECTION - CUSTOMER SERVICE */
+.container-sixth-section{
+    padding: 40px;
+    background-color: #f3f3f3;
+    font-family: Gotham,sans-serif;
+}
+.cs-card{
+    background: white;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.cs-card .card-container{
+    height: 25vh;
+    padding: 30px;
+    border-radius: 20px;
+    background: white;
+}
+.sixth-section-card .card-body{
+    background: transparent;
+}
+.sixth-section-card:hover{
+    border: 2px solid #ff0;
+    color: #ff0;
+    transform: translateY(-1px);
+    transition: all 0.1s ease-in-out
+}
+.sixth-section-card:hover .card-container{
+    border: 2px solid #ff0;
+    color: #ff0;
+    transform: translateY(-1px);
+    transition: all 0.1s ease-in-out
+}
+.sixth-section-card .card-container h5{
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    opacity: 65%;
+}
+.faq-container h4{
+    margin-bottom: 1.5rem;
+    opacity: 75%;
+}
+.nico-btn-plain{
+    padding: 10px 15px;
+    border: 2px solid #ff0;
+    border-radius: 14px;
+    background: #ff0;
+    font-size: 14px;
+    color: black;
+    opacity: 70%;
+    letter-spacing: .3px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nico-btn-plain:hover{
+    color: black;
+    opacity: 100%;
+    border: 2px solid #ff0;
+    background: white;
+    transition: all 0.1s ease-in-out;
+}
+.border-left{
+    border-left: solid 2px;
+}
